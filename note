@@ -1,0 +1,18 @@
+<div class="text-center h1 mt-5 pt-5 text-white">What Our Merchants Say About Bolt</div>
+
+<div class="carousel-item active fs-5 mt-5 text-white text-center">
+    "From the executive team right down to the staff helping manage the day-to-day business, everyone brings a level of excellence, commitment and care to the table that we simply haven't been able to find with any other partner."
+    <div class="text-warning fs-5">Verity Sylvester</div>
+    <div class="fs-4">Co-Founder of Branch</div>
+  </div>
+  <div class="carousel-item fs-5 mt-5 text-white text-center">
+    "From the executive team right down to the staff helping manage the day-to-day business, everyone brings a level of excellence, commitment and care to the table that we simply haven't been able to find with any other partner."
+    <div class="text-warning fs-5">Verity Sylvester</div>
+    <div class="fs-4">Co-Founder of Branch</div>
+  </div>
+  <div class="carousel-item fs-5 mt-5 m-auto text-white text-center">
+    "From the executive team right down to the staff helping manage the day-to-day business, everyone brings a level of excellence, commitment and care to the table that we simply haven't been able to find with any other partner."
+    <div class="text-warning fs-5">Verity Sylvester</div>
+    <div class="fs-4">Co-Founder of Branch</div>
+  </div>
+                        
