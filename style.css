@@ -1,10 +1,5 @@
-.nav{
-    background-color: black;
-
-}
-
 .nav-item > a:hover{
-    color: #007bff !important;
+    color: #198754 !important;
 
 }
 
@@ -18,7 +13,7 @@
 .cta-bg-img{
     background-size: cover;
     background-position: center;
-    height: 105rem;	
+    height: 110rem;	
     position: relative;
 }
 
@@ -46,8 +41,8 @@
 
 .cta-img{
     border-radius: 50%;
-    width: 45rem;
-    height: 20rem !important;
+    width: 60rem;
+    height: 23rem !important;
 }
 
 .cta-content{
@@ -57,7 +52,7 @@
 .heading::before{
     width: 280px;
     height: 3px;
-    background-color: #007bff;
+    background-color: #198754;
     display: block;
     margin-bottom: 1rem;
     content: "";
@@ -108,7 +103,7 @@
 }
 
 .footer-content > div > a:hover{
-    color: #007bff !important;
+    color: #198754 !important;
 }
 
 
@@ -144,7 +139,7 @@
     }
 
     .cta-bg-img{
-        height: 95rem;	
+        height: 100rem;	
     }
 
     .carousel2-bg{
@@ -169,10 +164,16 @@
 @media (min-width: 768px) {
     .carousel-img{
         height: 400px;
-    }  
+    } 
+    
+    .cta-img{
+        border-radius: 50%;
+        width: 50rem;
+        height: 17rem !important;
+    }
 
     .cta-bg-img{
-        height: 70rem;	
+        height: 75rem;	
     }
 
     .cta-icon1{
@@ -221,8 +222,14 @@
         background-position: center;
     }
 
+    .cta-img{
+        border-radius: 50%;
+        width: 60rem;
+        height: 23rem !important;
+    }
+
     .cta-bg-img{
-        height: 70rem;	
+        height: 73rem;	
     }
 
     .cta-icon3{
