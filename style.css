@@ -1,3 +1,8 @@
+.nav{
+    background-color: black;
+
+}
+
 .nav-item > a:hover{
     color: #007bff !important;
 
@@ -202,7 +207,7 @@
 
 @media (min-width: 992px) {
     .container{
-        width: 65% !important;
+        width: 75% !important;
     }
     
     .carousel-img{
