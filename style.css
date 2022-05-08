@@ -10,6 +10,19 @@
     background-position: center;
 }
 
+.services-section{
+    background-color: #fbfbfb;
+}
+
+.service-box{
+    background-color: #198754;
+	width: 350px;
+	height: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 15px #ccc;
+    box-sizing: border-box;
+}
+
 .cta-bg-img{
     background-size: cover;
     background-position: center;
@@ -106,6 +119,10 @@
     color: #198754 !important;
 }
 
+.form-box{
+    height: 55rem;
+}
+
 
 
 
@@ -159,12 +176,22 @@
     .blog-link{
         margin-left: 22rem;
     }
+
+    .service-box{
+        width: 550px;
+        height: 300px;
+    }
 }
 
 @media (min-width: 768px) {
     .carousel-img{
         height: 400px;
     } 
+
+    .service-box{
+        width: 310px;
+        height: 350px;
+    }
     
     .cta-img{
         border-radius: 50%;
@@ -204,6 +231,10 @@
     .carousel2-text{
         margin-left: 90px;
     }
+
+    .form-box{
+        height: 50rem;
+    }
 }
 
 @media (min-width: 992px) {
@@ -220,6 +251,11 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+    }
+
+    .service-box{
+        width: 310px;
+        height: 350px;
     }
 
     .cta-img{
