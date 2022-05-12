@@ -123,6 +123,33 @@
     height: 55rem;
 }
 
+.about-section{
+    background-image: url(./images/PHOTO-2022-04-19-18-51-43_10.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 35rem;	
+    position: relative;
+}
+
+.about-overlay{
+    background-color: rgba(0,100,0,0.5);
+    position: absolute;
+}
+
+.headings:after{
+    width: 70px;
+    height: 5px;
+    background-color: green;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    content: "";
+}
+
+.about-section3{
+    flex-direction: column-reverse;
+}
+
 
 
 
@@ -235,6 +262,12 @@
     .form-box{
         height: 50rem;
     }
+
+    .about-section3{
+        flex-direction: row;
+    }
+
+    
 }
 
 @media (min-width: 992px) {
