@@ -35,15 +35,10 @@
     position: absolute;
 }
 
-.cta-icon1{
-    position: relative;
-    right: 35px;
-}
-
 .cta-icon2{
     position: relative;
-    bottom: 120px;
-    left: 170px;
+    bottom: 0px;
+    left: -40px;
 }
 
 .cta-icon3{
@@ -162,11 +157,11 @@
 
 
 @media (min-width: 387px) {
-    .cta-icon2{
+    /* .cta-icon2{
         position: relative;
         bottom: 0px;
         left: -100px;
-    }  
+    }   */
 
     .cta-icon3{
         position: relative;
@@ -176,10 +171,21 @@
 }
 
 @media (min-width: 423px) {
+    .cta-icon{
+        position: relative;
+        left: 60px;
+    }
+
+    .cta-icon2{
+        position: relative;
+        left: 20px;
+
+    }
+
     .cta-icon3{
         position: relative;
         bottom: 0px;
-        left: -70px;
+        left: -10px;
     }
 
     .cta-bg-img{
@@ -210,6 +216,26 @@
     }
 }
 
+@media (min-width: 576px) {
+    .cta-icon{
+        position: relative;
+        left: 20px;
+    }
+
+    .cta-icon2{
+        position: relative;
+        left: -15px;
+
+    }
+
+    .cta-icon3{
+        position: relative;
+        bottom: 0px;
+        left: -45px;
+    }
+
+}
+
 @media (min-width: 768px) {
     .carousel-img{
         height: 400px;
@@ -230,21 +256,16 @@
         height: 75rem;	
     }
 
-    .cta-icon1{
-        position: relative;
-        right: 50px;
-    }
-
     .cta-icon2{
         position: relative;
         bottom: 0px;
-        left: -90px;
+        left: -30px;
     }  
 
     .cta-icon3{
         position: relative;
-        bottom: 120px;
-        left: 230px;
+        bottom: 0px;
+        left: -60px;
     }
 
     .cta-content{
@@ -301,10 +322,15 @@
         height: 73rem;	
     }
 
+    .cta-icon2{
+        position: relative;
+        left: -60px;
+    }
+
     .cta-icon3{
         position: relative;
         bottom: 0px;
-        left: -120px;
+        left: -105px;
     }
 
     .carousel2-text{
