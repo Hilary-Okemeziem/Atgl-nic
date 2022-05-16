@@ -145,6 +145,21 @@
     flex-direction: column-reverse;
 }
 
+.kitting-page{
+    background-image: url(./images/PHOTO-2022-04-19-18-51-43_1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 35rem;	
+    position: relative;
+}
+
+.kitting-overlay{
+    /* background-color: rgba(240,173,78,0.7); */
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+}
+
+
 
 
 
