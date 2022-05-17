@@ -176,6 +176,24 @@
     position: absolute;
 }
 
+.team-section .box{
+    background-color: white;
+    width: 330px;
+    height: 400px;
+    border-radius: 20px ;
+    margin-top: 50px;
+    box-shadow: 10px 5px  15px #ccc;
+    padding: 0;
+}
+
+.team-bg{
+    width: 330px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    background-color: black;
+}
+
 
 
 
@@ -320,6 +338,14 @@
         flex-direction: row;
     }
 
+    /* .team-box1{
+        margin-left: 2rem;
+    } */
+
+    .team-box2{
+        margin-left: 2rem;
+    }
+
     
 }
 
@@ -368,5 +394,13 @@
 
     .carousel2-text{
         margin-left: 120px;
+    }
+
+    .team-box1{
+        margin-left: 5rem;
+    }
+
+    .team-box2{
+        margin-left: 10rem;
     }
 }
