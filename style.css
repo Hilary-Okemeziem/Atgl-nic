@@ -3,6 +3,10 @@
 
 }
 
+.nav{
+    z-index: 1;
+}
+
 .img{
     height: 300px;
     background-repeat: no-repeat;
@@ -122,7 +126,7 @@
     background-image: url(./images/PHOTO-2022-04-19-18-51-43_10.jpg);
     background-size: cover;
     background-position: center;
-    height: 35rem;	
+    height: 40rem;	
     position: relative;
 }
 
@@ -149,13 +153,26 @@
     background-image: url(./images/PHOTO-2022-04-19-18-51-43_1.jpg);
     background-size: cover;
     background-position: center;
-    height: 35rem;	
+    height: 40rem;	
     position: relative;
 }
 
 .kitting-overlay{
     /* background-color: rgba(240,173,78,0.7); */
     background-color: rgba(0,0,0,0.8);
+    position: absolute;
+}
+
+.commerce-section{
+    background-image: url(./images/BBL-Logistic-service-solution.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40rem;	
+    position: relative;
+}
+
+.commerce-overlay{
+    background-color: rgba(0,100,0,0.6);
     position: absolute;
 }
 
@@ -339,13 +356,14 @@
 
     .cta-icon2{
         position: relative;
-        left: -60px;
+        left: -20px;
+    
     }
 
     .cta-icon3{
         position: relative;
         bottom: 0px;
-        left: -105px;
+        left: -50px;
     }
 
     .carousel2-text{
