@@ -98,46 +98,48 @@
   </nav>
 
     
-      <div class="container pb-5" style="padding-top: 10rem;">
+      <div class="container pb-5 form-section" style="padding-top: 10rem;">
         <div>
             <p class="text-success fw-bolder display-4">Get in touch with</p>
             <p class="h1"><b>Amber To Go Logistics(ATGL)</b></p>
         </div>
 
         <div class="form-box bg-success pe-5 ps-5 pt-3 pb-5 mt-5">
-            <form class="row g-3 mt-5 text-white">
+            <form class="row g-3 mt-5 text-white" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mayvagqq" method="post">
                 <div class="col-md-6">
-                  <label for="inputEmail4" class="form-label">Firstname*</label>
-                  <input type="text" class="form-control" id="inputEmail4" placeholder="Hilary">
+                  <label for="inputFirstname" class="form-label">Firstname*</label>
+                  <input type="text" name="Firstname" class="form-control" id="Firstname" placeholder="Hilary" required="">
                 </div>
                 <div class="col-md-6">
-                  <label for="inputPassword4" class="form-label">Lastname*</label>
-                  <input type="text" class="form-control" id="inputPassword4" placeholder="McKenie">
+                  <label for="inputLastname" class="form-label">Lastname*</label>
+                  <input type="text" name="Lastname" class="form-control" id="Lastname" placeholder="McKenie" required="">
                 </div>
                 <div class="col-12">
-                  <label for="inputEmail4" class="form-label">Email*</label>
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="hello@gmail.com">
+                  <label for="inputEmail" class="form-label">Email*</label>
+                  <input type="email" name="_replyto" id="email-address" class="form-control" placeholder="email@domain.tld" required="">
                 </div>
                 <div class="col-12">
-                  <label for="inputAddress2" class="form-label">Phone Number*</label>
-                  <input type="tel" class="form-control" id="inputTel" placeholder="+1 (647)-809-8198">
+                  <label for="inputPhonenumber" class="form-label">Phone Number*</label>
+                  <input type="tel" name="tel" id="phone-number" class="form-control" placeholder="+1 (647)-809-8198" required="">
                 </div>
                 <div class="col-12">
-                    <label for="inputAddress2" class="form-label">Company</label>
-                    <input type="text" class="form-control" id="inputText" placeholder="Amber To Go Logistics">
+                    <label for="inputMessage" class="form-label">Company</label>
+                    <input type="text" name="Company-name" id="Company-name" class="form-control" id="inputText" placeholder="Amber To Go Logistics" required="">
                 </div>
                 <div class="col-12">
-                    <label for="inputAddress2" class="form-label">How did you hear about us? (Please be specific)</label>
-                    <input type="text" class="form-control" id="inputText">
+                    <label for="inputMessage" class="form-label">How did you hear about us? (Please be specific)</label>
+                    <input type="text" name="How-you-heard-about-us" id="text" class="form-control" required="">
                 </div>
                 
                 <div class="col-12">
-                    <label for="inputAddress2" class="form-label">Message</label>
-                    <textarea class="form-control" placeholder="Leave us a message here" id="floatingTextarea2" style="height: 100px"></textarea>  
+                    <label for="inputMessage" class="form-label">Message</label>
+                    <textarea class="form-control" name="Message" id="message" placeholder="Leave us a message here" required="" style="height: 100px"></textarea>  
                 </div>
+
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                 
                 <div class="col-12 mt-5">
-                  <button type="submit" class="btn btn-warning">Submit</button>
+                  <button type="submit" value="Submit" class="btn btn-warning">Submit</button>
                 </div>
               </form>
         </div>
