@@ -15,7 +15,7 @@
 }
 
 .hero-overlay{
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0);
     position: absolute;
 
 }
@@ -61,7 +61,7 @@
     background-image: url(./images/PHOTO-2022-04-19-18-51-43_4.jpg);
     background-size: cover;
     background-position: center;
-    height: 32rem;	
+    height: 33rem;	
     position: relative;
 }
 
@@ -238,6 +238,10 @@
     position: absolute;
 }
 
+.theteam{
+    background-color: #fbfbfb;
+}
+
 .theteam .box{
     background-color: white;
     width: 330px;
@@ -253,13 +257,19 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     height: 200px;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .team-img{
     border-radius: 100%;
 }
 
+.call-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 25rem;
+}
 
 
 
@@ -272,50 +282,35 @@
 
 
 
-@media (min-width: 387px) {
-    /* .cta-icon2{
-        position: relative;
-        bottom: 0px;
-        left: -100px;
-    }   */
+/* @media (min-width: 387px) {
+    .call-section{
+        height: 32.5rem;	
+    }  
+}
 
-    .cta-icon3{
-        position: relative;
-        bottom: 120px;
-        left: 110px;
+@media (min-width: 396px) {
+    .call-section{
+        height: 33rem;	
+    }  
+}
+
+@media (min-width: 406px) {
+    .call-section{
+        height: 33.5rem;	
+    }  
+}
+
+@media (min-width: 421px) {
+    .call-section{
+        height: 34rem;
     }
 }
 
-@media (min-width: 423px) {
-    .cta-icon{
-        position: relative;
-        left: 60px;
+@media (min-width: 432px) {
+    .call-section{
+        height: 35rem;
     }
-
-    .cta-icon2{
-        position: relative;
-        left: 20px;
-
-    }
-
-    .cta-icon3{
-        position: relative;
-        bottom: 0px;
-        left: -10px;
-    }
-
-    .cta-bg-img{
-        height: 100rem;	
-    }
-
-    .carousel2-bg{
-        height: 500px !important;
-    }
-
-    .blog-link{
-        margin-left: 13rem;
-    }
-}
+} */
 
 @media (min-width: 575px) {
     .carousel2-bg{
@@ -429,6 +424,10 @@
         content: "";
     }
 
+    .call-img{
+        width: 30rem;
+    }
+
     
 }
 
@@ -506,5 +505,17 @@
         display: block;
         margin-bottom: 1rem;
         content: "";
+    }
+
+    .carousel-img{
+        height: 610px;
+    }
+
+    .carousel-text{
+        margin-bottom: 5rem;
+    }
+
+    .call-img{
+        width: 43rem;
     }
 }
