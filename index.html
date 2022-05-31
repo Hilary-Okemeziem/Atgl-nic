@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Amber To Go Logistics</title>
     <link rel="icon" href="images/favicon.ico">
 </head>
@@ -14,8 +18,8 @@
     <nav class="navbar nav navbar-expand-lg navbar-light position-fixed w-100 bg-light pb-0 pt-0 ">
         <div class="container">
             <div class="d-inline-flex">
-                <a class="navbar-brand" href="#"><img src="./images/Amber & Go-01.png" class="img-fluid" width="90rem"  alt=""></a>
-                <h4 class="text-danger mt-4">Amber <span class="text-success">To Go</span> <br> <span class="text-muted h6">Logistics INC</span></h4>
+                <a class="navbar-brand" href="./index.html"><img src="./images/Amber & Go-01.png" class="img-fluid" width="90rem"  alt=""></a>
+                <a href="./index.html" class="text-decoration-none"><h4 class="text-danger mt-4">Amber<span class="text-success">ToGo</span> <br> <span class="text-muted h6">Logistics INC</span></h4></a>
             </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,7 +45,7 @@
                         <li><a class="dropdown-item" href="ecommerce.html">Ecommerce, Order, Pick & Pack Fufilment</a></li><hr>
                         <li><a class="dropdown-item" href="kitting page.html">Kitting, Assembly, labelling, Sorting, <br> Special Projects</a></li><hr>
                         <li><a class="dropdown-item" href="3pl service.html">3PL(FBA), Inventory planning, <br> Warehouse services</a></li><hr>
-                        <li><a class="dropdown-item" href="#">More...</a></li><hr>
+                        <!-- <li><a class="dropdown-item" href="#">More...</a></li><hr> -->
                         <!-- <li><a class="dropdown-item" href="#">Warehouse Storage Services</a></li> -->
                     </ul>
                   </li>
@@ -73,7 +77,7 @@
                     <li><a class="dropdown-item" href="ecommerce.html">Ecommerce, Order, Pick & Pack Fufilment</a></li><hr>
                     <li><a class="dropdown-item" href="kitting page.html">Kitting, Assembly, labelling, Sorting, Special Projects</a></li><hr>
                     <li><a class="dropdown-item" href="3pl service.html">3PL(FBA), Inventory planning, Warehouse services</a></li><hr>
-                    <li><a class="dropdown-item" href="#">More...</a></li><hr>
+                    <!-- <li><a class="dropdown-item" href="#">More...</a></li><hr> -->
                     <!-- <li><a class="dropdown-item" href="#">Warehouse Storage Services</a></li> -->
                 </ul>
               </li>
@@ -97,21 +101,24 @@
         </div>
       </nav>
 
-    <section class="hero-section bg-warning pb-5" style="padding-top: 10rem;">
-        <div class="container">
-            <div class="w-75 mt-5 mb-5">
-                <p class="fw-bolder fs-1">The global fufilment services to expand your business worldwide</p>
-                <div class="mt-4">
-                    <p class="fs-4">Offer a satisfactory customer experience. <b>Amber To Go Logistics(ATGL)</b> is the best way to reliably store, pick, pack, and ship your products on-time and in-full.</p>
-                </div>
-                <div class="mt-4">
-                    <a class="btn btn-success btn-lg" href="contact.html">Get started</a>
+    <section class="hero-section pb-5" style="background-image: url(./images/08-Freight-industry_Blog-Image-768x452.jpg);">
+        <div class="hero-overlay w-100 h-100" style="padding-top: 10rem;">
+            <div class="container">
+                <div class="text-width mt-5 mb-5">
+                    <p class="fw-bolder fs-1 animate__animated animate__fadeInLeft animate__slow text-warning h1">The global fufilment services to expand your business worldwide</p>
+                    <div class="mt-4 animate__animated animate__fadeInRight animate__delay-2s">
+                        <p class="fs-4 text-white">Offer a satisfactory customer experience. <b>Amber To Go Logistics(ATGL)</b> is the best way to reliably store, pick, pack, and ship your products on-time and in-full.</p>
+                    </div>
+                    <div class="mt-5 animate__animated animate__fadeInLeft animate__delay-3s animate__slow">
+                        <a class="btn btn-success btn-lg" href="contact.html">Get started</a>
+                    </div>
                 </div>
             </div>
         </div>
+        
     </section>
 
-    <section class="carousel-section pb-5">
+    <!-- <section class="carousel-section pb-5">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -138,11 +145,11 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-    </section>
+    </section> -->
 
     <section class="services-section pt-5 pb-5">
-        <div class="container">
-            <div class="w-75">
+        <div class="container reveal">
+            <div class="text-width">
                 <h1 class="text-success fw-bolder text-uppercase">Our fufilment services</h1>
                 <p class="display-6"><b>to improve your supply chain processes;</b></p>
                 <div class="mt-4 fs-4"><p>Whatever your needs are, we have a solution that will work</p></div>
@@ -151,60 +158,160 @@
                     <a class="h3 text-success text-decoration-none" href="contact.html">Get Started</a>
                 </div>
             </div>
+
+            <!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div> -->
             <div class="row mt-5">
-                <div class="col-md d-grid justify-content-center justify-content-md-start mb-5">
-                  <div class="service-box text-warning p-5">
+                <div class="col-md d-grid justify-content-center justify-content-md-start mb-5 service-hover">
+                  <div class="service-box p-4">
+                    <img src="./images/icons8-warehouse-64 (1).png" class="img-fluid d-block m-auto" alt="">
                     <h2 class="text-center mb-4">Warehouse Quality</h2>
                     <p class="text-center">Good, is not good enough. <b>Amber To Go Logistics(ATGL)</b> provides high quality value added services, storage in our warehouse and transportation.</p>
+                    <div>
+                        <a href="./3pl service.html" class="btn btn-success btn-sm d-block m-auto">Read More</a>
+                    </div>
                   </div>
                 </div>
 
-                <div class="col-md d-grid justify-content-center justify-content-md-start mb-5">
-                    <div class="service-box text-warning p-5">
+                <div class="col-md d-grid justify-content-center justify-content-md-start mb-5 service-hover">
+                    <div class="service-box p-3">
+                        <img src="./images/icons8-new-product-64.png" class="img-fluid d-block m-auto" alt="">
                         <h2 class="text-center mb-4">Inventory Planning</h2>
                         <p class="text-center">It includes creating forecasts to determine how much inventory should be on hand to meet consumer demand. We also apply Inventory control by which our managers maintain inventory items in the business.</p>
+                        <div>
+                            <a href="./3pl service.html" class="btn btn-success btn-sm d-block m-auto">Read More</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-md d-grid justify-content-center justify-content-md-start mb-5">
-                    <div class="service-box text-warning p-5">
+                <div class="col-md d-grid justify-content-center justify-content-md-start mb-5 service-hover">
+                    <div class="service-box p-4">
+                      <img src="./images/icons8-warehouse-64.png" class="img-fluid d-block m-auto" alt="">
                       <h2 class="text-center mb-4">Warehouse Storage Services</h2>
-                      <p class="text-center">We apply Pallet Racking, Mobile Shelving, Multi-Tier Racking and Mezzanine Flooring in our Warehouse, depending on type of goods been stored or handled.</p> 
+                      <p class="text-center">We apply Pallet Racking, Shelving, Multi-Tier Racking and Mezzanine Flooring in our Warehouse, depending on goods been stored.</p> 
+                      <div>
+                        <a href="./3pl service.html" class="btn btn-success btn-sm d-block m-auto">Read More</a>
+                    </div>
                     </div>
                   </div>
 
-                <div class="col-md d-grid justify-content-center justify-content-md-start mb-5">
-                    <div class="service-box text-warning p-5">
+                <div class="col-md d-grid justify-content-center justify-content-md-start mb-5 service-hover">
+                    <div class="service-box p-3">
+                        <img src="./images/icons8-truck-80.png" class="img-fluid d-block m-auto" alt="">
                         <h2 class="text-center mb-4">Transport Management</h2>
-                        <p class="text-center">We are your expert on time-critical logistics. <b>Amber To Go Logistics(ATGL)</b> transport management helps you deliver the best transport service support at any time, anywhere in the world.</p>
+                        <p class="text-center">We are your expert on time-critical logistics. Our transport management helps you deliver the best transport service support at any time, anywhere in the world.</p>
+                        <div>
+                            <a href="./ecommerce.html" class="btn btn-success btn-sm d-block m-auto">Read More</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-md d-grid justify-content-center justify-content-md-start mb-5">
-                    <div class="service-box text-warning p-5">
+                <div class="col-md d-grid justify-content-center justify-content-md-start mb-5 service-hover">
+                    <div class="service-box p-4">
+                        <img src="./images/icons8-logistics-delivery-66.png" class="img-fluid d-block m-auto" alt="">
                         <h2 class="text-center mb-4">Value Added Services</h2>
                         <p class="text-center">Our value added services relieves your company of many daily operations. From labelling to assembly, striving to make your supply chain more than complete. </p>
+                        <div>
+                            <a href="./kitting page.html" class="btn btn-success btn-sm d-block m-auto">Read More</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-md d-grid justify-content-center justify-content-md-start mb-5">
-                    <div class="service-box text-warning p-5">
+                <div class="col-md d-grid justify-content-center justify-content-md-start mb-5 service-hover">
+                    <div class="service-box p-4">
+                      <img src="./images/icons8-worldwide-shipping-60.png" class="img-fluid d-block m-auto" alt="">
                       <h2 class="text-center mb-4">Worldwide</h2>
-                      <p class="text-center">Too far away does not exist. With the help of our partners and global network, we make sure to get your product anywhere in the world. <b>Amber To Go Logistics(ATGL)</b> has a global reach.</p>
+                      <p class="text-center">Too far away does not exist. <br> With the help of our partners and global network, <br> we make sure to get your product anywhere in the world. <br> In <b>Amber To Go Logistics(ATGL),</b> <br> we have a global reach.</p>
+                      <div>
+                        <a href="./ecommerce.html" class="btn btn-success btn-sm d-block m-auto">Read More</a>
+                      </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="pt-5 pb-5">
-        <div style="background-image: url(./images/PHOTO-2022-04-19-18-51-43_4.jpg);" class="img"></div>
+    <section class="call-section">
+            <div class="call-overlay w-100 h-100 pt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/icons8-ringer-volume-96.png" class="img-fluid" alt="">
+                            <div class="display-5 text-white mt-4">+1 (647)-809-8198</div>
+                            <div class="fs-2 text-white mt-3">Make Your Packing A Wonderful Experience</div>
+                        </div>
+                        <div class="col-md-7 mt-0 mt-md-5 mt-lg-0 pt-0 pt-md-5 pt-lg-0">
+                            <img src="./images/call-us.webp" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>  
+            </div>
+    </section>
+
+    <section class="pt-5 pb-5 mt-5 bg-warning">
+        <div class="container reveal">
+            <div class="h1 headings text-center">How does AmberToGo work</div>
+            <div class="row mt-5 pt-5">
+                <div class="col-md text-center">
+                    <img src="./images/Howitworks1.webp" class="img-fluid" alt="">
+                    <div class="h3 text-success mt-2">01. Book Our Service</div>
+                </div>
+                <div class="col-md text-center mt-5 mt-md-0">
+                    <img src="./images/Howitworks2.webp" class="img-fluid" alt="">
+                    <div class="h3 text-success mt-2">02. We Pack Your Goods</div>
+                </div>
+                <div class="col-md text-center mt-5 mt-md-0">
+                    <img src="./images/Howitworks3.webp" class="img-fluid" alt="">
+                    <div class="h3 text-success mt-2">03. We Move Your Goods</div>
+                </div>
+                <div class="col-md text-center mt-5 mt-md-0">
+                    <img src="./images/Howitworks4.webp" class="img-fluid" alt="">
+                    <div class="h3 text-success mt-2">04. We Deliver</div>
+                </div>
+            </div>
+       </div>
     </section>
 
     <section class="pt-5 pb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
+        <div class="container reveal">
+            <div class="row mt-3">
+                <div class="col-md-6">
                     <h1 class="text-success fw-bolder">Your fufilment service solution</h1>
                     <p class="display-6"><b>to global distribution</b></p>
                     <div class="fs-5">We can get your products anywhere, thanks to our global network. Many companies trust us to deliver the best logistic solutions possible. Our client base includes companies ranging from startups to multinational corporations. If you are looking for a 3PL or 4PL provider who offers robust resources, innovative problem-solving, and 24/7, 365 availability, search no further.</div>
@@ -214,22 +321,21 @@
                     </div> -->
                 </div>
                 
-                <div class="col-md-5 mt-4 mt-md-0">
-                    <img src="./images/PHOTO-2022-04-19-18-51-42_1.jpg" class="img-fluid" width="600rem" alt="">
+                <div class="col-md-6 mt-4 mt-md-5">
+                    <img src="./images/global.jpg" class="img-fluid" width="600rem" alt="">
                 </div>
             </div>
             
         </div>
     </section>
 
-    <section class="call-to-action-section pt-5 pb-5">
+    <!-- <section class="call-to-action-section pt-5 pb-5">
         <div style="background-image: url(./images/PHOTO-2022-04-19-18-51-43_10.jpg);" class="cta-bg-img">
             <div class="cta-overlay w-100 h-100">
                 <div class="container">
                     <div class="row text-center text-md-start mt-5 pt-5">
                         <div class="col-md-7 pe-5 pe-sm-0">
                             <img src="./images/shopify-icon.png" class="img-fluid cta-icon" width="118rem" alt="">
-                            <!-- <img src="./images/woocommerce-icon.png" class="img-fluid cta-icon1" width="118rem" alt=""> -->
                             <img src="./images/shipstation-icon.png" class="img-fluid cta-icon2" width="118rem" alt="">
                             <img src="./images/more-icon.png" class="img-fluid cta-icon3" width="118rem" alt="">
                         </div>
@@ -267,10 +373,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="percent-section pt-5 pb-5">
-        <div class="container">
+        <div class="container reveal">
             <div class="row">
                 <div class="col-md-4 mt-3 mt-md-0">
                     <div><p class="fs-5 text-warning">99.99 + 0.01% pick accuracy</p></div>
@@ -395,10 +501,10 @@
     </section> -->
 
     <section class="practice-section bg-warning pt-5 pb-5">
-        <div class="container">
+        <div class="container reveal">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="./images/PHOTO-2022-04-19-18-51-43_2.jpg" class="img-fluid" alt="">
+                    <img src="./images/supportleft.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-6 mt-5 mt-md-0">
                     <div class="h2 fw-bold text-success">What Motivates The Choice Of Business/Philosophy Of Amber To Go Logistics Company </div>
@@ -413,15 +519,28 @@
                     </div>
                     <div class="d-inline-flex mt-3">
                         <a href="#"><img src="./images/icons8-forward-button-60.png" width="35rem" alt=""></a>
-                        <a class="h3 text-success text-decoration-none" href="nijukallu@gmail.com">Learn More</a>
+                        <a class="h3 text-success text-decoration-none" href="about page.html">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="patners-section pt-5 pb-5">
+        <div class="container reveal text-center">
+            <small class="text-warning fs-5">Join us today</small>
+            <div class="h1 mt-3">Connect Your Store</div>
+            <div class="text-secondary mt-4 fs-5">Our skilled personnel, utilising the latest communications, tracking and processing software, combined with decades of experience! Through integrated supply chain solutions, AmberToGo drives sustainable competitive advantages to some of Canada's largest companies. </div>
+            <div class="mt-4">
+                <img src="./images/shopify.webp" class="img-fluid" width="180rem" alt="">
+                <img src="./images/woocommerce-logo.png" class="img-fluid" width="180rem" alt="">
+                <img src="./images/Amazon_logo.svg_.png" class="img-fluid" width="140rem" alt="">
+            </div>
+        </div>
+    </section>
+
     <section class="footer-section bg-dark pt-5 pb-5">
-        <div class="container">
+        <div class="container reveal">
             <div class="d-inline-flex">
                 <a class="navbar-brand" href="#"><img src="./images/Amber & Go-01.png" class="img-fluid" width="90rem"  alt=""></a>
                 <h4 class="text-danger mt-4">Amber <span class="text-success">To Go</span> <br> <span class="text-muted h6">Logistics INC</span></h4>
@@ -434,7 +553,7 @@
                     <div class="mt-3"><a href="#" class="text-decoration-none text-white h5">+1 (647)-809-8198</a></div>
                     <div class="mt-3"><a href="#" class="text-decoration-none text-white h5">+1 (647)-517-4968</a></div>
                     <div class="mt-3"><a href="#" class="text-decoration-none text-white h5">+1 (437)-980-9673</a></div>
-                    <div class="mt-3"><a href="#" class="text-decoration-none text-success h5">talktoambertogologistics@gmail.com</a></div>
+                    <div class="mt-3 mt-md-5 mt-lg-3"><a href="#" class="text-decoration-none text-success h5">talktoambertogologistics@gmail.com</a></div>
                 </div>
 
                 <div class="col-md-4 footer-content mt-5 mt-md-0">
@@ -456,10 +575,10 @@
             <div class="mt-5"><hr></div>
 
             <ul class="footer-list">
-                <li><a href="https://www.instagram.com/ambertogologistics/" target="_blank" class="me-3"><img src="./images/icons8-instagram-48.png" width="30rem" alt=""></a></li>
-                <li><a href="#" target="_blank" class="me-3" ><img src="./images/icons8-linkedin-60.png" width="30rem" alt=""></a></li>
-                <li><a href="https://www.facebook.com/AMBER-to-GO-Logistics-104439175615877" target="_blank" class="me-3"><img src="./images/icons8-facebook-52.png" width="30rem" alt=""></a></li>
-                <li><a href="https://www.twitter.com/AmbertogoLog/" target="_blank"><img src="./images/icons8-twitter-60.png" width="30rem" alt=""></a></li>
+                <li><a href="https://www.instagram.com/ambertogologistics/" target="_blank" class="me-3"><img src="./images/icons8-instagram-50.png" width="30rem" alt=""></a></li>
+                <li><a href="#" target="_blank" class="me-3" ><img src="./images/icons8-linkedin-50.png" width="30rem" alt=""></a></li>
+                <li><a href="https://www.facebook.com/AMBER-to-GO-Logistics-104439175615877" target="_blank" class="me-3"><img src="./images/icons8-facebook-50.png" width="30rem" alt=""></a></li>
+                <li><a href="https://www.twitter.com/AmbertogoLog/" target="_blank"><img src="./images/icons8-twitter-50.png" width="30rem" alt=""></a></li>
             </ul>
 
             <div class="footer-part text-white">
@@ -480,7 +599,27 @@
 
 
 
+    <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
 
+        function reveal() {
+            var reveals = document.querySelectorAll('.reveal')
+
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150
+                
+                if (revealtop < windowheight - revealpoint) {
+                    reveals[i].classList.add('active')
+                }
+                else{
+                    reveals[i].classList.remove('active')
+                }
+            }
+        }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
